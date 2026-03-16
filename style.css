@@ -22,6 +22,30 @@ margin: auto;
 text-align:left;
 font-size:16px
 }
+.markdown p{
+margin:0.4em 0;
+}
+
+.markdown ul,
+.markdown ol{
+margin:0.4em 0;
+padding-left:1.5em;
+}
+
+.markdown li{
+margin:0.2em 0;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3{
+margin-top:1em;
+margin-bottom:0.4em;
+}
+
+.markdown{
+line-height:1.6;
+}
 
 .menu{
 
