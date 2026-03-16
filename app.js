@@ -1,3 +1,7 @@
+marked.setOptions({
+breaks: true
+})
+
 let currentTab = "learning"
 let currentSubject = null
 let dataset = []
