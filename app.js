@@ -251,20 +251,32 @@ if(dataset.length==0) return
 
 document.getElementById("result").innerHTML=""
 
+let mcqDiv=document.getElementById("mcq")
+let inputBox=document.getElementById("answer")
+
+/* CONTEXT DRILL */
+
 if(isContextSubject()){
+
+mcqDiv.style.display="none"
+inputBox.style.display="block"
 
 current=rand(dataset)
 
-document.getElementById("answer").value=""
+inputBox.value=""
 
 document.getElementById("question").innerHTML=
 current.sentence.replace(current.target,"_____")
 
 return
-
 }
 
+/* ETYMOLOGY DRILL */
+
 if(isEtymologySubject()){
+
+mcqDiv.style.display="block"
+inputBox.style.display="none"
 
 generateMCQ()
 
