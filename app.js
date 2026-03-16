@@ -58,7 +58,8 @@ return (
 currentSubject=="angloPrefix" ||
 currentSubject=="latinPrefix" ||
 currentSubject=="latinRoot" ||
-currentSubject=="greekElement"
+currentSubject=="greekElement" ||
+currentSubject=="CI"
 )
 
 }
