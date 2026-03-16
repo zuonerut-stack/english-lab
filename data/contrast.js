@@ -308,8 +308,8 @@ clue: "explicit"
 
 {
 sentence: "He smiled as he signed the contract, unaware that he was giving away more than he gained.",
-target: "giving away",
-clue: "gained"
+target: "gained",
+clue: "giving away"
 },
 
 {
@@ -356,7 +356,7 @@ clue: "laughed"
 
 {
 sentence: "His words built bridges, but his actions burned them.",
-target: "burned them",
+target: "burned",
 clue: "built bridges"
 },
 
@@ -400,12 +400,6 @@ clue: "glittered"
 sentence: "He spoke of peace while sharpening the sword.",
 target: "sword",
 clue: "peace"
-},
-
-{
-sentence: "Their laughter echoed like music at a funeral.",
-target: "funeral",
-clue: "laughter"
 },
 
 {
