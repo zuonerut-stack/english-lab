@@ -210,7 +210,7 @@ return
 }
 
 if(subject=="phrase"){
-dataset=window.phraseData||[]
+dataset=window.phrasalData||[]
 loadMarkdown("learning/phrases.md")
 return
 }
