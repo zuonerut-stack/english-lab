@@ -33,25 +33,25 @@ currentSubject=subject
 
 if(subject=="contrast"){
 dataset=contrastData
-loadMarkdown("learning/contrast.md")
+loadMarkdown("learning/Context_Contrast.md")
 return
 }
 
 if(subject=="similar"){
 dataset=similarData
-loadMarkdown("learning/similar.md")
+loadMarkdown("learning/Sim.md")
 return
 }
 
 if(subject=="commonsense"){
 dataset=commonsenseData
-loadMarkdown("learning/commonsense.md")
+loadMarkdown("learning/Commonsenses.md")
 return
 }
 
 if(subject=="mixed"){
 dataset=mixedData
-loadMarkdown("learning/mixed.md")
+loadMarkdown("learning/Mixed.md")
 return
 }
 
@@ -59,18 +59,26 @@ return
 
 if(subject=="angloPrefix"){
 dataset=angloPrefixData
+loadMarkdown("learning/AS.md")
+return
 }
 
 if(subject=="latinPrefix"){
 dataset=latinPrefixData
+loadMarkdown("learning/latin_pref.md")
+return
 }
 
 if(subject=="latinRoot"){
 dataset=latinRootData
+loadMarkdown("learning/latin_roots.md")
+return
 }
 
 if(subject=="greekElement"){
 dataset=greekElementData
+loadMarkdown("learning/Greeks.md")
+return
 }
 
 showLearning()
