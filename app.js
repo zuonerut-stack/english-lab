@@ -461,20 +461,24 @@ function check(){
 let user=document.getElementById("answer").value.trim().toLowerCase()
 let result=document.getElementById("result")
 
+function normalize(text){
+return text
+.toLowerCase()
+.replace(/^(a|an|the)\s+/,"")
+.trim()
+}
+
 /* PHRASE */
 
 if(currentSubject=="phrase"){
 
 if(user==current.term.toLowerCase()){
-
 result.innerHTML="✔ Correct"
-
 }else{
-
 result.innerHTML="Answer: "+current.term
-
 }
 
+setTimeout(next,800)
 return
 }
 
@@ -482,16 +486,17 @@ return
 
 if(isContextSubject()){
 
-if(user==current.target){
+let target=normalize(current.target)
+let answer=normalize(user)
 
+if(answer==target){
 result.innerHTML="✔ Correct"
-
 }else{
-
 result.innerHTML="Answer: "+current.target
-
 }
 
+setTimeout(next,800)
+return
 }
 
 }
