@@ -96,6 +96,11 @@ loadMarkdown("./learning/Mixed.md")
 return
 }
 
+if(subject=="CI"){
+loadMarkdown("./learning/CenIdea.md")
+return
+}
+
 /* ETYMOLOGY BASED */
 
 if(subject=="angloPrefix"){
