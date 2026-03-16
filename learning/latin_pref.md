@@ -178,6 +178,7 @@ IN, IL, IM, IR : not, un 아닌
 - insecure = unprotected / unconfident
 - incapable = unable to / incapatitated ( 행동불능인 )
 - inaccurate = incorrect, inexact, imprecise
+
 ( IR )
 - irreconcilable = incompatible 
 - irrelevant = inapplicable, off topic, extraneous
