@@ -1,4 +1,4 @@
-window.cenData=[
+window.cenData={
 adroit: {
   domain: "Skill",
   synonyms: ["skillful","clever","deft"]
@@ -747,5 +747,4 @@ superfluous: {
   synonyms: ["surplus","excessive"]
 }
 
-
-]
+}
