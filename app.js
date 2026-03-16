@@ -24,6 +24,38 @@ next()
 
 }
 
+async function loadMarkdown(path){
+
+let div = document.getElementById("learningContent")
+
+div.innerHTML = "Loading..."
+
+try{
+
+let response = await fetch(path)
+
+if(!response.ok){
+throw new Error("File not found: " + path)
+}
+
+let text = await response.text()
+
+div.innerHTML =
+"<h3>"+currentSubject+"</h3>"+
+"<div class='markdown'>"+marked.parse(text)+"</div>"+
+"<button onclick='switchTab(\"drill\")'>Start Drill</button>"
+
+}catch(e){
+
+console.error(e)
+
+div.innerHTML =
+"<h3>"+currentSubject+"</h3>"+
+"<p>Failed to load learning content.</p>"
+
+}
+
+}
 
 function setSubject(subject){
 
