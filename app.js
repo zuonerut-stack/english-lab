@@ -113,6 +113,12 @@ loadMarkdown("learning/Greeks.md")
 return
 }
 
+if(subject=="phrase"){
+dataset=phraseData
+loadMarkdown("learning/phrase.md")
+return
+}
+
 showLearning()
 
 }
