@@ -1,4 +1,4 @@
-window.contrastData=[
+window.commonsenseData=[
 {
 sentence: "The morning had passed away and Rip felt famished for want of his breakfast.",
 target: "famished",
