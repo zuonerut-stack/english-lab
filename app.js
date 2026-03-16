@@ -327,9 +327,24 @@ function generateTypeA(){
 
 let base=rand(dataset)
 
-let prompt=rand([base.keyword,...base.synonyms])
+let prompt
+let correct
 
-let correct=base.keyword
+/* synonym이 있으면 synonym → keyword 문제 */
+
+if(base.synonyms.length>0){
+
+prompt=rand(base.synonyms)
+correct=base.keyword
+
+}else{
+
+/* synonym 없으면 keyword → synonym 문제 대신 skip */
+
+generateTypeA()
+return
+
+}
 
 let distractors=[]
 
@@ -339,7 +354,11 @@ let d=rand(dataset)
 
 if(d.domain!=base.domain){
 
-distractors.push(d.keyword)
+let word=rand([d.keyword,...d.synonyms])
+
+if(word!=correct && !distractors.includes(word)){
+distractors.push(word)
+}
 
 }
 
