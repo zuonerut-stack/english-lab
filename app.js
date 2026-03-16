@@ -47,7 +47,8 @@ return (
 currentSubject=="contrast" ||
 currentSubject=="similar" ||
 currentSubject=="commonsense" ||
-currentSubject=="mixed"
+currentSubject=="mixed" ||
+currentSubject=="phrase"
 )
 
 }
@@ -271,6 +272,19 @@ current.sentence.replace(current.target,"_____")
 return
 }
 
+if(currentSubject=="phrase"){
+
+current=rand(dataset)
+
+inputBox.value=""
+
+let blank=current.sentence.replace(current.term,"_____")
+
+document.getElementById("question").innerHTML=blank
+
+return
+}
+
 /* ETYMOLOGY DRILL */
 
 if(isEtymologySubject()){
@@ -306,7 +320,9 @@ function generateTypeA(){
 
 let base=rand(dataset)
 
-let correct=rand([base.keyword,...base.synonyms])
+let prompt=rand([base.keyword,...base.synonyms])
+
+let correct=base.keyword
 
 let distractors=[]
 
@@ -316,9 +332,7 @@ let d=rand(dataset)
 
 if(d.domain!=base.domain){
 
-let word=rand([d.keyword,...d.synonyms])
-
-distractors.push(word)
+distractors.push(d.keyword)
 
 }
 
@@ -328,6 +342,7 @@ let choices=shuffle([correct,...distractors])
 
 mcq={
 type:"A",
+prompt:prompt,
 answer:correct,
 choices:choices
 }
@@ -386,13 +401,17 @@ MCQ RENDER
 function renderMCQ(){
 
 let q=document.getElementById("question")
-
 let buttons=document.querySelectorAll("#mcq .choice")
 
 if(mcq.type=="A"){
-q.innerHTML="Choose the word MOST similar."
+
+q.innerHTML=
+"Choose the word MOST similar to <b>"+mcq.prompt+"</b>"
+
 }else{
-q.innerHTML="Choose the word that DOES NOT belong."
+
+q.innerHTML=
+"Choose the word that DOES NOT belong."
 }
 
 buttons.forEach((b,i)=>{
@@ -407,7 +426,6 @@ b.onclick=()=>checkChoice(b.innerText,b)
 })
 
 }
-
 /* --------------------------
 CHECK
 -------------------------- */
@@ -424,6 +442,20 @@ if(user==current.target){
 result.innerHTML="✔ Correct"
 }else{
 result.innerHTML="Answer: "+current.target
+}
+
+if(currentSubject=="phrase"){
+
+if(user==current.term){
+
+result.innerHTML="✔ Correct"
+
+}else{
+
+result.innerHTML="Answer: "+current.term
+
+}
+
 }
 
 }
@@ -459,6 +491,13 @@ let result=document.getElementById("result")
 if(isContextSubject()){
 
 result.innerHTML="Hint: "+current.clue
+return
+
+}
+
+if(currentSubject=="phrase"){
+
+result.innerHTML="Hint: "+current.domain
 return
 
 }
