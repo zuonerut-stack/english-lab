@@ -196,16 +196,14 @@ return
 if(subject=="mixed2"){
 
 dataset=[
-
 ...normalizeDataset(window.ASData||{}),
 ...normalizeDataset(window.LPData||{}),
 ...normalizeDataset(window.LRData||{}),
 ...normalizeDataset(window.GData||{}),
 ...normalizeDataset(window.CIData||{})
-
 ]
 
-loadMarkdown("./learning/mixed.md")
+loadMarkdown("./learning/Mixed.md")
 
 return
 }
