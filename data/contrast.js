@@ -1,4 +1,4 @@
-const contrastData=[
+window.contrastData=[
 
 {
 sentence:"One sandwitch for lunch usually suffices for you, but for me it is not enough.",
