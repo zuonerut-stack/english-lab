@@ -47,8 +47,7 @@ return (
 currentSubject=="contrast" ||
 currentSubject=="similar" ||
 currentSubject=="commonsense" ||
-currentSubject=="mixed" ||
-currentSubject=="phrase"
+currentSubject=="mixed"
 )
 
 }
@@ -255,6 +254,27 @@ document.getElementById("result").innerHTML=""
 let mcqDiv=document.getElementById("mcq")
 let inputBox=document.getElementById("answer")
 
+/* PHRASE DRILL */
+
+if(currentSubject=="phrase"){
+
+mcqDiv.style.display="none"
+inputBox.style.display="block"
+
+current=rand(dataset)
+
+inputBox.value=""
+
+let escaped=current.term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')
+let regex=new RegExp(escaped,"i")
+
+let blank=current.sentence.replace(regex,"_____")
+
+document.getElementById("question").innerHTML=blank
+
+return
+}
+
 /* CONTEXT DRILL */
 
 if(isContextSubject()){
@@ -268,19 +288,6 @@ inputBox.value=""
 
 document.getElementById("question").innerHTML=
 current.sentence.replace(current.target,"_____")
-
-return
-}
-
-if(currentSubject=="phrase"){
-
-current=rand(dataset)
-
-inputBox.value=""
-
-let blank=current.sentence.replace(current.term,"_____")
-
-document.getElementById("question").innerHTML=blank
 
 return
 }
@@ -432,27 +439,37 @@ CHECK
 
 function check(){
 
-if(!isContextSubject()) return
-
 let user=document.getElementById("answer").value.trim().toLowerCase()
-
 let result=document.getElementById("result")
 
-if(user==current.target){
-result.innerHTML="✔ Correct"
-}else{
-result.innerHTML="Answer: "+current.target
-}
+/* PHRASE */
 
 if(currentSubject=="phrase"){
 
-if(user==current.term){
+if(user==current.term.toLowerCase()){
 
 result.innerHTML="✔ Correct"
 
 }else{
 
 result.innerHTML="Answer: "+current.term
+
+}
+
+return
+}
+
+/* CONTEXT */
+
+if(isContextSubject()){
+
+if(user==current.target){
+
+result.innerHTML="✔ Correct"
+
+}else{
+
+result.innerHTML="Answer: "+current.target
 
 }
 
@@ -488,19 +505,23 @@ function hint(){
 
 let result=document.getElementById("result")
 
-if(isContextSubject()){
-
-result.innerHTML="Hint: "+current.clue
-return
-
-}
+/* PHRASE */
 
 if(currentSubject=="phrase"){
 
 result.innerHTML="Hint: "+current.domain
 return
-
 }
+
+/* CONTEXT */
+
+if(isContextSubject()){
+
+result.innerHTML="Hint: "+current.clue
+return
+}
+
+/* MCQ */
 
 if(!mcq) return
 
