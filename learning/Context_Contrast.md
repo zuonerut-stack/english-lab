@@ -15,8 +15,8 @@
 * Roses in bloom are a common sight in summer, but a rarity in late Nov.
 * The tables in the restaurant **were all occupied**, and we waited more than ten minutes for one to **become vacant.**
 * There are few theaters here, but on Broadway there are theaters galore.
-  
-> Sometimes time modal of contrasting words may not match too.
+
+----
 
 * I do not shrink from this responsibility; I welcome it.
 * Ruth is an experienced driver, but Harry is a novice; he began taking lessons last month.
