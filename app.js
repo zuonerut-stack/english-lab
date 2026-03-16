@@ -63,12 +63,11 @@ try{
 let response = await fetch(path)
 
 let text = await response.text()
-
+   
 div.innerHTML =
 "<h3>"+currentSubject+"</h3>" +
-"<pre class='markdown'>"+escapeHtml(text)+"</pre>" +
+"<div class='markdown'>"+marked.parse(text)+"</div>" +
 "<button onclick='switchTab(\"drill\")'>Start Drill</button>"
-
 }catch(e){
 
 div.innerHTML = "Failed to load markdown."
