@@ -115,7 +115,7 @@ return
 
 if(subject=="phrase"){
 dataset=phraseData
-loadMarkdown("learning/phrase.md")
+loadMarkdown("learning/phrases.md")
 return
 }
 
