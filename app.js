@@ -27,7 +27,7 @@ currentSubject = subject
 
 if(subject=="contrast"){
 dataset = contrastData
-loadMarkdown("learning/Contrast.md")
+loadMarkdown("learning/Context(Contrast).md")
 return
 }
 
