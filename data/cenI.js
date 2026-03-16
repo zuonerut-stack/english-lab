@@ -1,4 +1,4 @@
-window.cenData={
+window.CIData={
 adroit: {
   domain: "Skill",
   synonyms: ["skillful","clever","deft"]
