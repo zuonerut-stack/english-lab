@@ -82,7 +82,7 @@ return
 }
 
 if(subject=="mixed"){
-dataset=mixedData
+dataset=[(window.mixedData || []),(window.contrastData || []),(window.similarData || []),(window.commonsenseData || [])]
 loadMarkdown("learning/Mixed.md")
 return
 }
