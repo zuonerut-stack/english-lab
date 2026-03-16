@@ -137,7 +137,7 @@ return
 }
 
 if(subject=="similar"){
-dataset=window.similarData||[]
+dataset=window.similarityData||[]
 loadMarkdown("./learning/Sim.md")
 return
 }
@@ -152,7 +152,7 @@ if(subject=="mixed"){
 dataset=[
 ...(window.mixedData||[]),
 ...(window.contrastData||[]),
-...(window.similarData||[]),
+...(window.similarityData||[]),
 ...(window.commonsenseData||[])
 ]
 loadMarkdown("./learning/Mixed.md")
