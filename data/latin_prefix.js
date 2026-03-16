@@ -367,7 +367,6 @@ window.LPData={
     synonyms: ["come between","intercede"]
   },
 
-{
   "illegible": {
     domain: "il",
     synonyms: ["undecipherable"]
