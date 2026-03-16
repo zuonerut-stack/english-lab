@@ -25,7 +25,7 @@ clue: "context(increased = no hearing)"
 
 {
 sentence: "All was dark within, so that I could distinguish nothing by the eye.",
-target: "distinguish nothing",
+target: "distinguish",
 clue: "dark, by the eye"
 },
 
@@ -67,13 +67,13 @@ clue: "not spoken = after action"
 
 {
 sentence: "Every time you cross a busy street against the light, you are putting your life in jeopardy.",
-target: "life in jeopardy",
+target: "jeopardy",
 clue: "cross against the light"
 },
 
 {
 sentence: "I was witness to events of a less peaceful character. I observed two large ants, the one red, the other much larger, and black, fiercely contending with one another.",
-target: "contend with",
+target: "contend",
 clue: "ants, fiercely = state"
 },
 
@@ -85,13 +85,13 @@ clue: "tournament-rule, lose"
 
 {
 sentence: "I'll cleave to him as long as he lives, and nobody shall ever come between him and me.",
-target: "cleave to",
+target: "cleave",
 clue: "nobody between us"
 },
 
 {
 sentence: "Tenants usually don't stop complaining about the lack of heat until they are content with the temperature.",
-target: "content with",
+target: "content",
 clue: "complain about the lack of heat"
 },
 
