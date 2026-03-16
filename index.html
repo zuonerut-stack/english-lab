@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>English Context Trainer</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>English Self Learning Lab</h1>
+
+<div class="menu">
+
+<button onclick="setMode('contrast')">Contrast</button>
+<button onclick="setMode('similarity')">Similarity</button>
+<button onclick="setMode('phrasal')">Phrase Verbs</button>
+<button onclick="setMode('roots')">Word Roots</button>
+
+</div>
+
+<div id="trainer">
+
+<div id="question"></div>
+
+<input id="answer" type="text">
+
+<div class="buttons">
+
+<button onclick="check()">Check</button>
+<button onclick="next()">Next</button>
+
+</div>
+
+<div id="result"></div>
+
+</div>
+
+<script src="data/contrast.js"></script>
+<script src="data/similarity.js"></script>
+<script src="data/phrasal.js"></script>
+<script src="data/roots.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
