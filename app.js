@@ -1,5 +1,5 @@
 marked.setOptions({
-breaks: true
+breaks: false
 })
 
 let currentTab = "learning"
