@@ -59,7 +59,8 @@ currentSubject=="angloPrefix" ||
 currentSubject=="latinPrefix" ||
 currentSubject=="latinRoot" ||
 currentSubject=="greekElement" ||
-currentSubject=="CI"
+currentSubject=="CI" ||
+currentSubject=="mixed2"
 )
 
 }
