@@ -90,30 +90,65 @@ showLearning()
 MARKDOWN LOADER
 -------------------------- */
 
-async function loadMarkdown(path){
+function setSubject(subject){
 
-let div=document.getElementById("learningContent")
+currentSubject = subject
 
-div.innerHTML="Loading..."
+/* CONTEXT BASED */
 
-try{
-
-let response=await fetch(path)
-let text=await response.text()
-
-div.innerHTML=
-"<h3>"+currentSubject+"</h3>"+
-"<div class='markdown'>"+marked.parse(text)+"</div>"+
-"<button onclick='switchTab(\"drill\")'>Start Drill</button>"
-
-}catch(e){
-
-div.innerHTML="Failed to load markdown."
-
+if(subject=="contrast"){
+dataset = window.contrastData || []
+loadMarkdown("./learning/Context_Contrast.md")
+return
 }
 
+if(subject=="similar"){
+dataset = window.similarData || []
+loadMarkdown("./learning/Sim.md")
+return
 }
 
+if(subject=="commonsense"){
+dataset = window.commonsenseData || []
+loadMarkdown("./learning/Commonsenses.md")
+return
+}
+
+if(subject=="mixed"){
+dataset = window.mixedData || []
+loadMarkdown("./learning/Mixed.md")
+return
+}
+
+/* ETYMOLOGY BASED */
+
+if(subject=="angloPrefix"){
+dataset = window.angloPrefixData || []
+loadMarkdown("./learning/AS.md")
+return
+}
+
+if(subject=="latinPrefix"){
+dataset = window.latinPrefixData || []
+loadMarkdown("./learning/latin_pref.md")
+return
+}
+
+if(subject=="latinRoot"){
+dataset = window.latinRootData || []
+loadMarkdown("./learning/latin_roots.md")
+return
+}
+
+if(subject=="greekElement"){
+dataset = window.greekElementData || []
+loadMarkdown("./learning/Greeks.md")
+return
+}
+
+showLearning()
+
+}
 
 /* HTML escape */
 
