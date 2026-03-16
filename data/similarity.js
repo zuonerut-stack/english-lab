@@ -1,4 +1,4 @@
-const similarityData=[
+window.similarityData=[
 
 {
 sentence: "All school officials receive a salary except the members of the Board of Education, who serve without remuneration.",
