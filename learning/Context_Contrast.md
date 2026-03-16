@@ -30,40 +30,40 @@
   
   There are more examples of Context of Contrast:
   
-- I can't understand why Terry has become so hostile to me. We always have been friends.  
+* I can't understand why Terry has become so hostile to me. We always have been friends.  
 → Clue: have been friends Target: hostile
-- You should have no trouble following these directions. They are not complicated.  
+* You should have no trouble following these directions. They are not complicated.  
 → Clue: have trouble, Target: not complicated
-- When someone asked how many times we should write each spelling word, she said five times would be adequate.  
+* When someone asked how many times we should write each spelling word, she said five times would be adequate.  
 → Clue: many times (conceptual exceed) Target: adequate ( = no more, enough )
-- Not a single civilian was appinted to the dictator's cabinet. All the posts were given to military officers.  
+* Not a single civilian was appinted to the dictator's cabinet. All the posts were given to military officers.  
 → Clue: were given,  Target: not appointed
 
-- Then such a scramble as there is to get aboard, and to get ashore, and to take in freight and to discharge freight! 
+* Then such a scramble as there is to get aboard, and to get ashore, and to take in freight and to discharge freight! 
 → Clue: to take in, Target: to discharge
-- The owner is selling his gas station becuaes the profit is too small. He hopes to go into a more lucrative business.
+* The owner is selling his gas station becuaes the profit is too small. He hopes to go into a more lucrative business.
 → Clue: profit is too small, Target: more lucrative business 
-- Debbie, who has come late to every meeting, surprised us today be being punctual.
+* Debbie, who has come late to every meeting, surprised us today be being punctual.
 → Clue: come late Target: being punctual
-- As I hurried to the board, I inadvertnetly stepped on Alan's foot, but he thinks I did it on purpose.
+* As I hurried to the board, I inadvertnetly stepped on Alan's foot, but he thinks I did it on purpose.
 → Clue: do on purpsoe Target: inadvertently
-- When you chair a discussion, it's unfair to call only on your friends. To be equitable, you should call on all who wish to speak, without favoritism.
+* When you chair a discussion, it's unfair to call only on your friends. To be equitable, you should call on all who wish to speak, without favoritism.
 → Clue: unfair, favoritism Target: equitable
-- The only extemporaneous talk was Jerry's; all the other candidates gave memoritzed speeches.
+* The only extemporaneous talk was Jerry's; all the other candidates gave memoritzed speeches.
 → Clue: memorized Target: extemporaneous
-- If you agree, write 'yes'; if you dissent, write 'no'.
+* If you agree, write 'yes'; if you dissent, write 'no'.
 → Clue: agree, Target: dissent
--  A child trying to squeeze through the iron fence became stuck between two bars, but luckily whe was able to extricate herself.
+*  A child trying to squeeze through the iron fence became stuck between two bars, but luckily whe was able to extricate herself.
 → Clue: stuck Target: extricate ( = make way out )
-- At first I was blamed for damaging Dad's computer, but when my sister said she was reponsible, I was exonerated.
+* At first I was blamed for damaging Dad's computer, but when my sister said she was reponsible, I was exonerated.
 → Clue: be blamed for Target: exonerated
-- Parking on our side of the street is prohibited on weekdays between 4 P.M. and 7 P.M. but permitted at all other times. 
+* Parking on our side of the street is prohibited on weekdays between 4 P.M. and 7 P.M. but permitted at all other times. 
 → Clue: permitted, Target: prohibited
-- The caretaker expected to be praised for his efforts to put out the fire. instead, he was rebuked for his delay in notifying the fire department.
+* The caretaker expected to be praised for his efforts to put out the fire. instead, he was rebuked for his delay in notifying the fire department.
 → Clue: be praised for, Target: rebuked
-- If we can begin the meeting on time, we should be able to complete business and adjourn by 4:30 P.M.
+* If we can begin the meeting on time, we should be able to complete business and adjourn by 4:30 P.M.
 → Clue: begin, Target: adjourn
-- Befor the new hotel can be constructed, the two old buildings now on the site will have to be dmolished.
+* Befor the new hotel can be constructed, the two old buildings now on the site will have to be dmolished.
 → Clue: constructed, Target: demoslished
 
 
