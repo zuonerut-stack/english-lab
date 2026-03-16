@@ -1,4 +1,4 @@
-window.greeksData ={
+window.GData ={
 authentic: {
   domain: "AUT",
   synonyms: ["true","trustworthy","genuine","reliable"]
