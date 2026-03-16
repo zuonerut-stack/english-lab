@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
 <meta charset="UTF-8">
-<title>English Context Trainer</title>
-
+<title>English Self Learning Lab</title>
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
 <h1>English Self Learning Lab</h1>
 
-<div class="menu">
+<!-- MAIN TAB -->
+<div class="tabs">
 
-<button onclick="setMode('contrast')">Contrast</button>
-<button onclick="setMode('similarity')">Similarity</button>
-<button onclick="setMode('phrasal')">Phrase Verbs</button>
-<button onclick="setMode('roots')">Word Roots</button>
+<button onclick="switchTab('learning')">Learning</button>
+<button onclick="switchTab('drill')">Drill</button>
 
 </div>
+
+
+<!-- LEARNING PAGE -->
+<div id="learningPage" class="page">
+
+<h2>Learning Subjects</h2>
+
+<div class="menu">
+
+<button onclick="setSubject('contrast')">Contrast</button>
+<button onclick="setSubject('similarity')">Similarity</button>
+<button onclick="setSubject('phrasal')">Phrase Verbs</button>
+<button onclick="setSubject('roots')">Word Roots</button>
+
+</div>
+
+<div id="learningContent">
+
+Select a subject to study.
+
+</div>
+
+</div>
+
+
+<!-- DRILL PAGE -->
+<div id="drillPage" class="page" style="display:none">
+
+<h2>Flash Card Drill</h2>
 
 <div id="trainer">
 
@@ -31,6 +57,7 @@
 <div class="buttons">
 
 <button onclick="check()">Check</button>
+<button onclick="hint()">Hint</button>
 <button onclick="next()">Next</button>
 
 </div>
@@ -38,6 +65,9 @@
 <div id="result"></div>
 
 </div>
+
+</div>
+
 
 <script src="data/contrast.js"></script>
 <script src="data/similarity.js"></script>
