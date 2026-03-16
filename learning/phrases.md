@@ -354,6 +354,7 @@ into the bargain<br>
     
 - Coastal cities **are vulnerable to** rising sea levels.
 
+---
 
 - She **is concerned with** environmental policy rather than party politics.
     
@@ -375,6 +376,7 @@ into the bargain<br>
     
 - Coastal cities **are vulnerable to** rising sea levels.
 
+---
 
 - The teacher tried to **get across** the importance of clear reasoning.
     
@@ -416,7 +418,7 @@ into the bargain<br>
     
 - It was difficult, but we **got through** the crisis together.
 
-
+---
 
 - She **has at her fingers' ends** all the data she needs for the presentation.
     
@@ -442,6 +444,7 @@ into the bargain<br>
     
 - In the negotiation, the union seemed to **have the upper hand**.
 
+---
 
 - A small change in temperature can **make a difference** in chemical reactions.
     
@@ -477,6 +480,7 @@ into the bargain<br>
     
 - Hard work can **make up for** a lack of natural talent.
 
+---
 
 - While reading the old manuscript, I **came across** an unusual philosophical argument.
     
@@ -494,7 +498,7 @@ into the bargain<br>
     
 - As I walked through the forest, I suddenly **came upon** an abandoned cabin.
 
-
+---
 
 - As time **goes by**, memories sometimes become clearer rather than dimmer.
     
@@ -520,6 +524,7 @@ into the bargain<br>
     
 - During the long expedition, the explorers often had to **go without** proper food.
 
+---
 
 - Don't **take** his kindness **for** weakness.
     
@@ -555,6 +560,7 @@ into the bargain<br>
     
 - The judge refused to **take sides** in the dispute.
 
+---
 
 - The speaker struggled to **put across** his complex theory clearly.
     
@@ -574,6 +580,7 @@ into the bargain<br>
     
 - I can't **put up with** constant interruptions.
 
+---
 
 - Scientists try to **keep abreast of** the latest discoveries.
     
@@ -591,6 +598,8 @@ into the bargain<br>
     
 - During the conference, the two researchers decided to **keep company** while exploring the city.
 
+
+---
 
 - The traveler **turned aside** from the main road to explore the village.
     
@@ -610,6 +619,7 @@ into the bargain<br>
     
 - The missing keys suddenly **turned up** in my coat pocket.
 
+---
 
 - The new policy aims to **do away with** unnecessary paperwork.
     
@@ -625,7 +635,7 @@ into the bargain<br>
     
 - During the expedition they had to **do without** electricity for several days.
 
-
+---
 
 - She asked a neighbor to **look after** her cat while she traveled.
     
@@ -652,7 +662,7 @@ into the bargain<br>
 - Many young scientists **look up to** her as a role model.
 
 
-
+---
 
 - The government decided to **cut back on** unnecessary spending.
     
@@ -664,7 +674,7 @@ into the bargain<br>
     
 - In his elegant suit, he **cut a fine figure** at the formal reception.
 
-
+---
 
 - While browsing the archive, I **ran across** an interesting historical document.
     
@@ -682,6 +692,7 @@ into the bargain<br>
     
 - During the expedition, the team **ran short** of food supplies.
 
+---
 
 - The old machine suddenly **broke down** during the test.
     
@@ -697,6 +708,7 @@ into the bargain<br>
     
 - After years of disagreement, the partnership finally **broke up**.
 
+---
 
 - After several failed attempts, the young researcher began to **lose heart**.
     
@@ -708,6 +720,7 @@ into the bargain<br>
     
 - I completely **lost track of** time while reading the book.
 
+---
 
 - Fear sometimes **holds back** scientific progress.
     
@@ -723,6 +736,7 @@ into the bargain<br>
     
 - The police **held up** traffic while the accident was being cleared.
 
+---
 
 - The two scientists **see eye to eye** on the fundamental theory.
     
@@ -804,6 +818,8 @@ into the bargain<br>
     
 - The medal was given **in token of** his bravery.
 
+---
+
 - The two companies merged **on account of** financial pressure.
     
 - The heating system works **on and off**, so it needs repair.
@@ -846,6 +862,8 @@ into the bargain<br>
     
 - **On the whole**, the conference was very productive.
 
+---
+
 - I was **at a loss** to explain the strange result.
     
 - **At any rate**, we must finish the experiment before tomorrow.
@@ -867,6 +885,8 @@ into the bargain<br>
 - She published the findings **at the risk of** severe criticism.
     
 - The two solutions may both be valid **at the same time**.
+
+---
 
 - His criticism was **out and out** unfair.
     
@@ -894,6 +914,8 @@ into the bargain<br>
     
 - Many workers were suddenly **out of work** during the recession.
 
+---
+
 - He bought the rare book **for a song** at a flea market.
     
 - **For all** his intelligence, he sometimes makes simple mistakes.
@@ -912,6 +934,8 @@ into the bargain<br>
     
 - We will use this temporary solution **for the time being**.
 
+---
+
 - We will discuss the details **by and by**.
     
 - **By and large**, the results support the hypothesis.
@@ -928,6 +952,7 @@ into the bargain<br>
     
 - The climbers survived the avalanche **by the skin of their teeth**.
 
+---
 
 - His humorous remark was delivered **off the cuff**.
     
@@ -937,6 +962,7 @@ into the bargain<br>
     
 - His experimental theory sounded completely **off the wall**.
 
+---
 
 - The city expanded the park **with a view to** improving public health.
     
@@ -946,6 +972,8 @@ into the bargain<br>
     
 - **With regard to** your proposal, we need further discussion.
 
+---
+
 - The children played **to their heart's content** in the garden.
     
 - The report stated **to the effect that** the system required revision.
@@ -954,6 +982,7 @@ into the bargain<br>
     
 - His comment was brief but **to the point**.
 
+---
 
 - The employee secretly accepted money **under the table**.
     
@@ -961,6 +990,7 @@ into the bargain<br>
     
 - The construction project is now **under way**.
 
+---
 
 - The system must operate **without fail**.
     
@@ -968,10 +998,15 @@ into the bargain<br>
     
 - The decision was made **without regard to** the consequences.
 
+---
 
 - The mechanism will adjust **of itself** once the pressure stabilizes.
+
+---
     
 - The issue is **of moment** to the entire scientific community.
+
+---
 
 - The engineer rebuilt the machine **from scratch**.
 
