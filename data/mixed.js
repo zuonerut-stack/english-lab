@@ -1,241 +1,117 @@
 window.contrastData=[
-
 {
-sentence:"One sandwitch for lunch usually suffices for you, but for me it is not enough.",
-target:"suffices"
-,clue:"enough"
-},
-
-{
-sentence:"Don't digress and stick to the topic.",
-target:"digress"
-,clue:"stick to"
-},
-
-{
-sentence:"Your account of the fight concurs with Joanne's but differs from the accounts given by the other witnesses.",
-target:"concurs"
-,clue:"differs"
-},
-
-{
-sentence:"Roses in bloom are a common sight in summer, but a rarity in late Nov.",
-target:"common sight"
-,clue:"rarity"
-},
-
-{
-sentence:" The tables in the restaurant were all occupied, and we waited more than ten minutes for one to become vacant.",
-target:"occupied"
-,clue:"vacant"
-},
-
-{
-sentence:"There are few theaters here, but on Broadway there are theaters galore.",
-target:"galore"
-,clue:"few"
+sentence:"Shall you hear how Hiawatha prayed and fasted in the forest. Not for greater skill in hunting, not for greater craft in fishing.",
+target:"craft",
+clue:"skill"
 },
 {
-sentence:" I do not shrink from this responsibility; I welcome it.",
-target:"shrink"
-,clue:"welcome"
+sentence:"Geri didn't notice me in the crowd, but she spotted my brother, who is conspicuous because of his red hair.",
+target:"conspicuous",
+clue:"notice, spot, not A but B"
 },
 {
-sentence:"A bank teller can usually tell the difference between genuine $100 bills and counterfeit ones.",
-target:"counterfeit"
-,clue:"genuine"
+sentence:"Children who do not want their cereal should not be required to finish it against their volition.",
+target:"volition",
+clue:"not want"
 },
 {
-sentence:"I come to bury Caesar, not to praise him. The evil that men do lives after them; The good is oft interred with their bones; So let it be with Caesar.",
-target:"interred"
-,clue:"live after"
+sentence:"The team's uniform were immaculate at the start of play, but by the end of the first quarter they were dirty with mud.",
+target:"immaculate",
+clue:"dirty, start-end"
 },
 {
-sentence:"I can't understand why Terry has become so hostile to me. We always have been friends.",
-target:"hostile"
-,clue:"have been friends"
+sentence:"It's raining too hard now. As soon as it abates, we'll make a dash for the car.",
+target:"abate",
+clue:"hard rain, soon as"
 },
 {
-sentence:"When someone asked how many times we should write each spelling word, she said five times would be adequate.",
-target:"adequate"
-,clue:"many times"
+sentence:"He was a native of cape Cod; and was called a Cape-Codman. A happy-go-lucky; neither craven nor valiant.",
+target:"craven",
+clue:"A nor B"
 },
 {
-sentence:"Not a single civilian was appointed to the dictator's cabinet. All the posts were given to military officers. ",
-target:"appointed"
-,clue:"posts"
+sentence:"I expected it to alleviate my cough but it seems to have aggravated it.",
+target:"aggravate",
+clue:"alleviate, but"
 },
 {
-sentence:"Then such a scramble as there is to get aboard, and to get ashore, and to take in freight and to discharge freight! ",
-target:"discharge"
-,clue:"take in"
+sentence:"It is not a true story; the incidents and characters are entirely fictitious.",
+target:"fictitious",
+clue:"not a true story"
 },
 {
-sentence:"The owner is selling his gas station becuaes the profit is too small. He hopes to go into a more lucrative business.",
-target:"lucrative"
-,clue:"profit = small"
+sentence:"Some students would probably collapse if they had to run two miles; they don't have the stamina.",
+target:"stamina",
+clue:"run two miles = impossible"
 },
 {
-sentence:"Debbie, who has come late to every meeting, surprised us today by being punctual.",
-target:"punctual"
-,clue:"come late"
+sentence:"Donald was defeated in last election but that won't deter him from running again.",
+target:"deter from",
+clue:"won't ~ running again"
 },
 {
-sentence:" As I hurried to the board, I inadvertently stepped on Alan's foot, but he thinks I did it on purpose.",
-target:"inadvertently"
-,clue:"on purpose"
+sentence:"Officials have been in conference around the clock in an attempt to reach an accord on wages.",
+target:"accord",
+clue:"officials attempt to reach"
 },
 {
-sentence:"When you chair a discussion, it's unfair to call only on your friends. To be equitable, you should call on all who wish to speak, without favoritism.",
-target:"equitable"
-,clue:"favoritism"
+sentence:"Our band now has four players and if you join it will become a quintet.",
+target:"quintet",
+clue:"four + 1"
 },
 {
-sentence:"The only extemporaneous talk was Jerry's; all the other candidates gave memoritzed speeches.",
-target:"extemporaneous"
-,clue:"memorized"
+sentence:"I see with my own eyes the little fields, houses, the diminutive people, the tiny cows, ...",
+target:"diminutive",
+clue:"little, tiny"
 },
 {
-sentence:"If you agree, write 'yes'; if you dissent, write 'no'.",
-target:"dissent"
-,clue:"agree"
+sentence:"Walter left saying he would return presently, but he was gone for a long time.",
+target:"presently",
+clue:"for a long time"
 },
 {
-sentence:"A child trying to squeeze through the iron fence became stuck between two bars, but luckily whe was able to extricate herself.",
-target:"extricate"
-,clue:"become stuck"
+sentence:"I shall be disappointed if I cannot achieve this objective.",
+target:"achievee",
+clue:"disappointed = result"
 },
 {
-sentence:"At first I was blamed for damaging Dad's computer, but when my sister said she was reponsible, I was exonerated.",
-target:"exonerated"
-,clue:"be blamed for"
+sentence:"In most books, the I is omiited; in this it will be retained.",
+target:"retained",
+clue:"omit"
 },
 {
-sentence:"Parking on our side of the street is prohibited on weekdays between 4 P.M. and 7 P.M. but permitted at all other times.",
-target:"permitted"
-,clue:"prohibited"
+sentence:"The Goodmans don't mind leaving their children in your custody because you are an excellent babysitter.",
+target:"custody",
+clue:"babysitter"
 },
 {
-sentence:"If we can begin the meeting on time, we should be able to complete business and adjourn by 4:30 P.M.",
-target:"adjourn"
-,clue:"begin"
+sentence:"Most people will change their minds when shown they are wrong but he is too opinionated.",
+target:"opinionated",
+clue:"change minds"
 },
 {
-sentence:"Before the new hotel can be constructed, the two old buildings now on the site will have to be demolished.",
-target:"demolished"
-,clue:"constructed"
+sentence:"Some volcanoes have erupted in recent times; others have been dormant for years.",
+target:"dormant",
+clue:"in recent times, for years"
+},
+{
+sentence:"Frequent absences will make you fall behind in your work and imperil your chances of passing.",
+target:"imperil",
+clue:"cause - and - result"
+},
+{
+sentence:"Everyone in the class must take the final exam to pass the course, no student is exempt.",
+target:"exempt",
+clue:"everyone ~ no ~"
+},
+{
+sentence:"Fears of the dentist were dispelled when I had a relatively painless first visit.",
+target:"dispelled",
+clue:"painless first visit"
+},
+{
+sentence:"Dad fell behind in his work because of a protracted illness lasting several weeks.",
+target:"protracted",
+clue:"last several weeks"
 }
-/*
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-*/
-
 ]
