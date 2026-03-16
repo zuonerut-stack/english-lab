@@ -1,22 +1,22 @@
 marked.setOptions({
-breaks: false
+breaks:false
 })
 
-let currentTab = "learning"
-let currentSubject = null
-let dataset = []
-let current = null
+let currentTab="learning"
+let currentSubject=null
+let dataset=[]
+let current=null
 
 
 function switchTab(tab){
 
-currentTab = tab
+currentTab=tab
 
-document.getElementById("learningPage").style.display =
-tab==="learning" ? "block" : "none"
+document.getElementById("learningPage").style.display=
+tab==="learning" ? "block":"none"
 
-document.getElementById("drillPage").style.display =
-tab==="drill" ? "block" : "none"
+document.getElementById("drillPage").style.display=
+tab==="drill" ? "block":"none"
 
 if(tab==="drill" && dataset.length>0){
 next()
@@ -27,24 +27,50 @@ next()
 
 function setSubject(subject){
 
-currentSubject = subject
+currentSubject=subject
+
+/* CONTEXT BASED */
 
 if(subject=="contrast"){
-dataset = contrastData
-loadMarkdown("learning/Context_Contrast.md")
+dataset=contrastData
+loadMarkdown("learning/contrast.md")
 return
 }
 
-if(subject=="similarity"){
-dataset = similarityData
+if(subject=="similar"){
+dataset=similarData
+loadMarkdown("learning/similar.md")
+return
 }
 
-if(subject=="phrasal"){
-dataset = phrasalData
+if(subject=="commonsense"){
+dataset=commonsenseData
+loadMarkdown("learning/commonsense.md")
+return
 }
 
-if(subject=="roots"){
-dataset = rootsData
+if(subject=="mixed"){
+dataset=mixedData
+loadMarkdown("learning/mixed.md")
+return
+}
+
+/* ETYMOLOGY BASED */
+
+if(subject=="angloPrefix"){
+dataset=angloPrefixData
+}
+
+if(subject=="latinPrefix"){
+dataset=latinPrefixData
+}
+
+if(subject=="latinRoot"){
+dataset=latinRootData
+}
+
+if(subject=="greekElement"){
+dataset=greekElementData
 }
 
 showLearning()
@@ -53,28 +79,28 @@ showLearning()
 
 
 /* --------------------------
-   MARKDOWN LOADER
+MARKDOWN LOADER
 -------------------------- */
 
 async function loadMarkdown(path){
 
-let div = document.getElementById("learningContent")
+let div=document.getElementById("learningContent")
 
-div.innerHTML = "Loading..."
+div.innerHTML="Loading..."
 
 try{
 
-let response = await fetch(path)
+let response=await fetch(path)
+let text=await response.text()
 
-let text = await response.text()
-   
-div.innerHTML =
-"<h3>"+currentSubject+"</h3>" +
-"<div class='markdown'>"+marked.parse(text)+"</div>" +
+div.innerHTML=
+"<h3>"+currentSubject+"</h3>"+
+"<div class='markdown'>"+marked.parse(text)+"</div>"+
 "<button onclick='switchTab(\"drill\")'>Start Drill</button>"
+
 }catch(e){
 
-div.innerHTML = "Failed to load markdown."
+div.innerHTML="Failed to load markdown."
 
 }
 
@@ -82,6 +108,7 @@ div.innerHTML = "Failed to load markdown."
 
 
 /* HTML escape */
+
 function escapeHtml(text){
 
 return text
@@ -94,66 +121,84 @@ return text
 
 function showLearning(){
 
-let div = document.getElementById("learningContent")
+let div=document.getElementById("learningContent")
 
 if(!currentSubject){
 
-div.innerHTML = "Select a subject."
-
+div.innerHTML="Select a subject."
 return
 
 }
 
-let html = "<h3>"+currentSubject+"</h3>"
-html += "<p>Items: "+dataset.length+"</p>"
-html += "<button onclick='switchTab(\"drill\")'>Start Drill</button>"
+let html="<h3>"+currentSubject+"</h3>"
+html+="<p>Items: "+dataset.length+"</p>"
+html+="<button onclick='switchTab(\"drill\")'>Start Drill</button>"
 
-div.innerHTML = html
+div.innerHTML=html
 
 }
-
 
 
 function next(){
 
 if(dataset.length==0) return
 
-current = dataset[Math.floor(Math.random()*dataset.length)]
+current=dataset[Math.floor(Math.random()*dataset.length)]
 
-document.getElementById("answer").value = ""
-document.getElementById("result").innerHTML = ""
+document.getElementById("answer").value=""
+document.getElementById("result").innerHTML=""
 
-if(currentSubject=="contrast" || currentSubject=="similarity"){
+/* CONTEXT FLASHCARD */
 
-document.getElementById("question").innerHTML =
+if(
+currentSubject=="contrast" ||
+currentSubject=="similar" ||
+currentSubject=="commonsense" ||
+currentSubject=="mixed"
+){
+
+document.getElementById("question").innerHTML=
 current.sentence.replace(current.target,"_____")
 
 }
 
-if(currentSubject=="phrasal"){
+/* ETYMOLOGY */
 
-document.getElementById("question").innerHTML =
-"What does this mean?<br><b>"+current.verb+"</b>"
+if(
+currentSubject=="angloPrefix" ||
+currentSubject=="latinPrefix" ||
+currentSubject=="latinRoot" ||
+currentSubject=="greekElement"
+){
+
+document.getElementById("question").innerHTML=
+"Element: <b>"+current.element+"</b>"
+
+/*
+future MCQ generation
+
+generateChoices(current)
+
+*/
 
 }
 
-if(currentSubject=="roots"){
-
-document.getElementById("question").innerHTML =
-"Root: <b>"+current.root+"</b>"
-
 }
-
-}
-
 
 
 function check(){
 
-let user = document.getElementById("answer").value.trim().toLowerCase()
-let result = document.getElementById("result")
+let user=document.getElementById("answer").value.trim().toLowerCase()
+let result=document.getElementById("result")
 
-if(currentSubject=="contrast" || currentSubject=="similarity"){
+/* CONTEXT FLASHCARD */
+
+if(
+currentSubject=="contrast" ||
+currentSubject=="similar" ||
+currentSubject=="commonsense" ||
+currentSubject=="mixed"
+){
 
 if(user==current.target){
 
@@ -167,25 +212,14 @@ result.innerHTML="Answer: "+current.target
 
 }
 
-if(currentSubject=="phrasal"){
 
-if(user==current.meaning){
+/* ETYMOLOGY (future MCQ)
 
-result.innerHTML="✔ Correct"
-
-}else{
-
-result.innerHTML="Answer: "+current.meaning
-
+if(currentSubject=="latinRoot"){
+checkChoice()
 }
 
-}
-
-if(currentSubject=="roots"){
-
-result.innerHTML="Examples:<br>"+current.examples.join(", ")
-
-}
+*/
 
 }
 
@@ -193,23 +227,39 @@ result.innerHTML="Examples:<br>"+current.examples.join(", ")
 
 function hint(){
 
-let result = document.getElementById("result")
+let result=document.getElementById("result")
 
-if(currentSubject=="contrast" || currentSubject=="similarity"){
+/* CONTEXT FLASHCARD */
 
-result.innerHTML="Hint: "+current.target
+if(
+currentSubject=="contrast" ||
+currentSubject=="similar" ||
+currentSubject=="commonsense" ||
+currentSubject=="mixed"
+){
+
+result.innerHTML="Hint: "+current.clue
 
 }
 
-if(currentSubject=="phrasal"){
 
-result.innerHTML="Hint: "+current.meaning
+/* ETYMOLOGY */
 
-}
+if(
+currentSubject=="angloPrefix" ||
+currentSubject=="latinPrefix" ||
+currentSubject=="latinRoot" ||
+currentSubject=="greekElement"
+){
 
-if(currentSubject=="roots"){
+result.innerHTML="Examples:<br>"+current.examples?.join(", ")
 
-result.innerHTML="Examples:<br>"+current.examples.join(", ")
+/*
+future hint logic
+
+showEtymologyHint()
+
+*/
 
 }
 
