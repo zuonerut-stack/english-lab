@@ -57,73 +57,6 @@ div.innerHTML =
 
 }
 
-function setSubject(subject){
-
-currentSubject=subject
-
-/* CONTEXT BASED */
-
-if(subject=="contrast"){
-dataset=contrastData
-loadMarkdown("learning/Context_Contrast.md")
-return
-}
-
-if(subject=="similar"){
-dataset=similarData
-loadMarkdown("learning/Sim.md")
-return
-}
-
-if(subject=="commonsense"){
-dataset=commonsenseData
-loadMarkdown("learning/Commonsenses.md")
-return
-}
-
-if(subject=="mixed"){
-dataset=[(window.mixedData || []),(window.contrastData || []),(window.similarData || []),(window.commonsenseData || [])]
-loadMarkdown("learning/Mixed.md")
-return
-}
-
-/* ETYMOLOGY BASED */
-
-if(subject=="angloPrefix"){
-dataset=angloPrefixData
-loadMarkdown("learning/AS.md")
-return
-}
-
-if(subject=="latinPrefix"){
-dataset=latinPrefixData
-loadMarkdown("learning/latin_pref.md")
-return
-}
-
-if(subject=="latinRoot"){
-dataset=latinRootData
-loadMarkdown("learning/latin_roots.md")
-return
-}
-
-if(subject=="greekElement"){
-dataset=greekElementData
-loadMarkdown("learning/Greeks.md")
-return
-}
-
-if(subject=="phrase"){
-dataset=phraseData
-loadMarkdown("learning/phrases.md")
-return
-}
-
-showLearning()
-
-}
-
-
 /* --------------------------
 MARKDOWN LOADER
 -------------------------- */
@@ -153,7 +86,7 @@ return
 }
 
 if(subject=="mixed"){
-dataset = window.mixedData || []
+dataset=[(window.mixedData || []),(window.contrastData || []),(window.similarData || []),(window.commonsenseData || [])]
 loadMarkdown("./learning/Mixed.md")
 return
 }
@@ -181,6 +114,12 @@ return
 if(subject=="greekElement"){
 dataset = window.greekElementData || []
 loadMarkdown("./learning/Greeks.md")
+return
+}
+
+if(subject=="phrase"){
+dataset= window.phraseData || []
+loadMarkdown("learning/phrases.md")
 return
 }
 
