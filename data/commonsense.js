@@ -1,241 +1,152 @@
 window.contrastData=[
-
 {
-sentence:"One sandwitch for lunch usually suffices for you, but for me it is not enough.",
-target:"suffices"
-,clue:"enough"
+sentence: "The morning had passed away and Rip felt famished for want of his breakfast.",
+target: "famished",
+clue: "for want of his breakfast"
 },
 
 {
-sentence:"Don't digress and stick to the topic.",
-target:"digress"
-,clue:"stick to"
+sentence: "As a result of a break in the water main, many cellars in the area were inundated.",
+target: "inundated",
+clue: "break in the water"
 },
 
 {
-sentence:"Your account of the fight concurs with Joanne's but differs from the accounts given by the other witnesses.",
-target:"concurs"
-,clue:"differs"
+sentence: "If you stand up in the boat, it may capsize and we'll find ourselves in the water.",
+target: "capsize",
+clue: "in the water = after"
 },
 
 {
-sentence:"Roses in bloom are a common sight in summer, but a rarity in late Nov.",
-target:"common sight"
-,clue:"rarity"
+sentence: "I made one or two attempts to speak to my brother, but in some manner which I could not understand the din had so increased that I couldn't make him hear a single word.",
+target: "din",
+clue: "context(increased = no hearing)"
 },
 
 {
-sentence:" The tables in the restaurant were all occupied, and we waited more than ten minutes for one to become vacant.",
-target:"occupied"
-,clue:"vacant"
+sentence: "All was dark within, so that I could distinguish nothing by the eye.",
+target: "distinguish nothing",
+clue: "dark, by the eye"
 },
 
 {
-sentence:"There are few theaters here, but on Broadway there are theaters galore.",
-target:"galore"
-,clue:"few"
+sentence: "The microscope is of the utmost importance in the study of biology because it can magnify objects too small to be seen by the naked eye.",
+target: "magnify",
+clue: "too small to be seen"
 },
+
 {
-sentence:" I do not shrink from this responsibility; I welcome it.",
-target:"shrink"
-,clue:"welcome"
+sentence: "Someone must have rummaged my desk; everything in it is in disorder.",
+target: "rummaged",
+clue: "in disorder = effect"
 },
+
 {
-sentence:"A bank teller can usually tell the difference between genuine $100 bills and counterfeit ones.",
-target:"counterfeit"
-,clue:"genuine"
+sentence: "Room 109 is too small for our club; it can accommodate up to 35 and we are 48.",
+target: "accommodate",
+clue: "room, small"
 },
+
 {
-sentence:"I come to bury Caesar, not to praise him. The evil that men do lives after them; The good is oft interred with their bones; So let it be with Caesar.",
-target:"interred"
-,clue:"live after"
+sentence: "Mrs. Linton's funeral was appointed to take place on the Friday after her decease.",
+target: "decease",
+clue: "funeral = after"
 },
+
 {
-sentence:"I can't understand why Terry has become so hostile to me. We always have been friends.",
-target:"hostile"
-,clue:"have been friends"
+sentence: "Can't tell you the secret unless you promise not to divulge it.",
+target: "divulge",
+clue: "tell = conditional"
 },
+
 {
-sentence:"When someone asked how many times we should write each spelling word, she said five times would be adequate.",
-target:"adequate"
-,clue:"many times"
+sentence: "Sandra became incensed when I refused to return her books for her, and she has not spoken to me since then.",
+target: "incensed",
+clue: "not spoken = after action"
 },
+
 {
-sentence:"Not a single civilian was appointed to the dictator's cabinet. All the posts were given to military officers. ",
-target:"appointed"
-,clue:"posts"
+sentence: "Every time you cross a busy street against the light, you are putting your life in jeopardy.",
+target: "life in jeopardy",
+clue: "cross against the light"
 },
+
 {
-sentence:"Then such a scramble as there is to get aboard, and to get ashore, and to take in freight and to discharge freight! ",
-target:"discharge"
-,clue:"take in"
+sentence: "I was witness to events of a less peaceful character. I observed two large ants, the one red, the other much larger, and black, fiercely contending with one another.",
+target: "contend with",
+clue: "ants, fiercely = state"
 },
+
 {
-sentence:"The owner is selling his gas station becuaes the profit is too small. He hopes to go into a more lucrative business.",
-target:"lucrative"
-,clue:"profit = small"
+sentence: "According to the rules, as soon as you lose a match, you are eliminated from the tournament.",
+target: "eliminated",
+clue: "tournament-rule, lose"
 },
+
 {
-sentence:"Debbie, who has come late to every meeting, surprised us today by being punctual.",
-target:"punctual"
-,clue:"come late"
+sentence: "I'll cleave to him as long as he lives, and nobody shall ever come between him and me.",
+target: "cleave to",
+clue: "nobody between us"
 },
+
 {
-sentence:" As I hurried to the board, I inadvertently stepped on Alan's foot, but he thinks I did it on purpose.",
-target:"inadvertently"
-,clue:"on purpose"
+sentence: "Tenants usually don't stop complaining about the lack of heat until they are content with the temperature.",
+target: "content with",
+clue: "complain about the lack of heat"
 },
+
 {
-sentence:"When you chair a discussion, it's unfair to call only on your friends. To be equitable, you should call on all who wish to speak, without favoritism.",
-target:"equitable"
-,clue:"favoritism"
+sentence: "The speaker kept the audience laughing with one facetious remark after another.",
+target: "facetious",
+clue: "laugh"
 },
+
 {
-sentence:"The only extemporaneous talk was Jerry's; all the other candidates gave memoritzed speeches.",
-target:"extemporaneous"
-,clue:"memorized"
+sentence: "We set out with a fresh wind, never dreaming of danger for indeed we saw not the slightest reason to apprehend it.",
+target: "apprehend",
+clue: "never dreaming of danger"
 },
+
 {
-sentence:"If you agree, write 'yes'; if you dissent, write 'no'.",
-target:"dissent"
-,clue:"agree"
+sentence: "Some few hands are reserved, called ship-keepers whose province is to work the vessel while the boats are pursuing the whale.",
+target: "province",
+clue: "to work the vessel = action"
 },
+
 {
-sentence:"A child trying to squeeze through the iron fence became stuck between two bars, but luckily whe was able to extricate herself.",
-target:"extricate"
-,clue:"become stuck"
+sentence: "There was born a boy who subsequently became the sixteenth President of the U.S.",
+target: "subsequently",
+clue: "boy become President"
 },
+
 {
-sentence:"At first I was blamed for damaging Dad's computer, but when my sister said she was reponsible, I was exonerated.",
-target:"exonerated"
-,clue:"be blamed for"
+sentence: "Franklin D. Roosevelt died in 1945, and his wife Eleanor, in 1962; she survived him by seventeen years.",
+target: "survived",
+clue: "1945, 1962, 17"
 },
+
 {
-sentence:"Parking on our side of the street is prohibited on weekdays between 4 P.M. and 7 P.M. but permitted at all other times.",
-target:"permitted"
-,clue:"prohibited"
+sentence: "At one point during the hurricane, the winds reached a velocity of 130 miles an hour.",
+target: "velocity",
+clue: "130 miles an hour"
 },
+
 {
-sentence:"If we can begin the meeting on time, we should be able to complete business and adjourn by 4:30 P.M.",
-target:"adjourn"
-,clue:"begin"
+sentence: "Farmers will be in trouble unless the drought ends soon; it hasn't rained in six weeks.",
+target: "drought",
+clue: "six weeks, no rain"
 },
+
 {
-sentence:"Before the new hotel can be constructed, the two old buildings now on the site will have to be demolished.",
-target:"demolished"
-,clue:"constructed"
+sentence: "In New York City, Philadelphia, Chicago, and most other large urban centers, traffic is a serious problem.",
+target: "urban",
+clue: "NY, Philadelphia, Chicago"
+},
+
+{
+sentence: "There are no clothing shops in the vicinity of the school; the nearest one is about a mile away.",
+target: "vicinity",
+clue: "a mile away, nearest"
 }
-/*
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-*/
 
 ]
