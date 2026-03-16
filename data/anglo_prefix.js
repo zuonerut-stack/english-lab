@@ -1,241 +1,304 @@
-window.contrastData=[
+window.ASData={
 
-{
-sentence:"One sandwitch for lunch usually suffices for you, but for me it is not enough.",
-target:"suffices"
-,clue:"enough"
-},
-
-{
-sentence:"Don't digress and stick to the topic.",
-target:"digress"
-,clue:"stick to"
+foreboding: {
+  domain: "fore",
+  synonyms: ["misgiving","omen"]
 },
 
-{
-sentence:"Your account of the fight concurs with Joanne's but differs from the accounts given by the other witnesses.",
-target:"concurs"
-,clue:"differs"
+forecast: {
+  domain: "fore",
+  synonyms: ["prediction","prophecy"]
 },
 
-{
-sentence:"Roses in bloom are a common sight in summer, but a rarity in late Nov.",
-target:"common sight"
-,clue:"rarity"
+foreshadow: {
+  domain: "fore",
+  synonyms: ["augur","portend"]
 },
 
-{
-sentence:" The tables in the restaurant were all occupied, and we waited more than ten minutes for one to become vacant.",
-target:"occupied"
-,clue:"vacant"
+foregoing: {
+  domain: "fore",
+  synonyms: ["preceding","previous"]
 },
 
-{
-sentence:"There are few theaters here, but on Broadway there are theaters galore.",
-target:"galore"
-,clue:"few"
+forebear: {
+  domain: "fore",
+  synonyms: ["ancestor"]
 },
-{
-sentence:" I do not shrink from this responsibility; I welcome it.",
-target:"shrink"
-,clue:"welcome"
+
+forefront: {
+  domain: "fore",
+  synonyms: ["foremost","vanguard"]
 },
-{
-sentence:"A bank teller can usually tell the difference between genuine $100 bills and counterfeit ones.",
-target:"counterfeit"
-,clue:"genuine"
+
+foremost: {
+  domain: "fore",
+  synonyms: ["principal","first","front","chief"]
 },
-{
-sentence:"I come to bury Caesar, not to praise him. The evil that men do lives after them; The good is oft interred with their bones; So let it be with Caesar.",
-target:"interred"
-,clue:"live after"
+
+foresight: {
+  domain: "fore",
+  synonyms: ["prudence"]
 },
-{
-sentence:"I can't understand why Terry has become so hostile to me. We always have been friends.",
-target:"hostile"
-,clue:"have been friends"
+
+foreword: {
+  domain: "fore",
+  synonyms: ["preface","prologue","introduction"]
 },
-{
-sentence:"When someone asked how many times we should write each spelling word, she said five times would be adequate.",
-target:"adequate"
-,clue:"many times"
+  
+misdeed: {
+  domain: "mis",
+  synonyms: ["bad act","crime"]
 },
-{
-sentence:"Not a single civilian was appointed to the dictator's cabinet. All the posts were given to military officers. ",
-target:"appointed"
-,clue:"posts"
+
+misgiving: {
+  domain: "mis",
+  synonyms: ["uneasy feeling","doubt","foreboding","disbelief"]
 },
-{
-sentence:"Then such a scramble as there is to get aboard, and to get ashore, and to take in freight and to discharge freight! ",
-target:"discharge"
-,clue:"take in"
+
+mishap: {
+  domain: "mis",
+  synonyms: ["misfortune","accident","mischance"]
 },
-{
-sentence:"The owner is selling his gas station becuaes the profit is too small. He hopes to go into a more lucrative business.",
-target:"lucrative"
-,clue:"profit = small"
+
+misstep: {
+  domain: "mis",
+  synonyms: ["slip","blunder"]
 },
-{
-sentence:"Debbie, who has come late to every meeting, surprised us today by being punctual.",
-target:"punctual"
-,clue:"come late"
+
+misbelief: {
+  domain: "mis",
+  synonyms: ["false belief"]
 },
-{
-sentence:" As I hurried to the board, I inadvertently stepped on Alan's foot, but he thinks I did it on purpose.",
-target:"inadvertently"
-,clue:"on purpose"
+
+mislay: {
+  domain: "mis",
+  synonyms: ["lose","misplace"]
 },
-{
-sentence:"When you chair a discussion, it's unfair to call only on your friends. To be equitable, you should call on all who wish to speak, without favoritism.",
-target:"equitable"
-,clue:"favoritism"
+
+mislead: {
+  domain: "mis",
+  synonyms: ["lead astray","deceive","beguile"]
 },
-{
-sentence:"The only extemporaneous talk was Jerry's; all the other candidates gave memoritzed speeches.",
-target:"extemporaneous"
-,clue:"memorized"
+  
+outlandish: {
+  domain: "out",
+  synonyms: ["offbeat","grotesque"]
 },
-{
-sentence:"If you agree, write 'yes'; if you dissent, write 'no'.",
-target:"dissent"
-,clue:"agree"
+
+outlook: {
+  domain: "out",
+  synonyms: ["prospect"]
 },
-{
-sentence:"A child trying to squeeze through the iron fence became stuck between two bars, but luckily whe was able to extricate herself.",
-target:"extricate"
-,clue:"become stuck"
+
+output: {
+  domain: "out",
+  synonyms: ["yield","product"]
 },
-{
-sentence:"At first I was blamed for damaging Dad's computer, but when my sister said she was reponsible, I was exonerated.",
-target:"exonerated"
-,clue:"be blamed for"
+
+outlast: {
+  domain: "out",
+  synonyms: ["outlive","survive"]
 },
-{
-sentence:"Parking on our side of the street is prohibited on weekdays between 4 P.M. and 7 P.M. but permitted at all other times.",
-target:"permitted"
-,clue:"prohibited"
+
+outrun: {
+  domain: "out",
+  synonyms: ["leave behind","outstrip"]
 },
-{
-sentence:"If we can begin the meeting on time, we should be able to complete business and adjourn by 4:30 P.M.",
-target:"adjourn"
-,clue:"begin"
+
+outspoken: {
+  domain: "out",
+  synonyms: ["frank"]
 },
-{
-sentence:"Before the new hotel can be constructed, the two old buildings now on the site will have to be demolished.",
-target:"demolished"
-,clue:"constructed"
+
+outwit: {
+  domain: "out",
+  synonyms: ["outsmart","outfox"]
+},
+  
+overburden: {
+  domain: "over",
+  synonyms: ["overtax","overload"]
+},
+
+overconfident: {
+  domain: "over",
+  synonyms: ["self-assured"]
+},
+
+overestimate: {
+  domain: "over",
+  synonyms: ["overvalue","overrate"]
+},
+
+overgenerous: {
+  domain: "over",
+  synonyms: ["openhanded"]
+},
+
+oversupply: {
+  domain: "over",
+  synonyms: ["surplus"]
+},
+
+overbearing: {
+  domain: "over",
+  synonyms: ["bossy","domineering","dictatorial"]
+},
+
+overshadow: {
+  domain: "over",
+  synonyms: ["overcloud","obscure","outweigh"]
+},
+
+overwhelm: {
+  domain: "over",
+  synonyms: ["overpower","crush"]
+},
+  
+unabridged: {
+  domain: "un",
+  synonyms: ["uncut","complete"]
+},
+
+unbiased: {
+  domain: "un",
+  synonyms: ["fair","unprejudiced","impartial"]
+},
+
+unconcern: {
+  domain: "un",
+  synonyms: ["indifference","apathy"]
+},
+
+unquenchable: {
+  domain: "un",
+  synonyms: ["insatiable","inextinguishable"]
+},
+
+unwary: {
+  domain: "un",
+  synonyms: ["heedless","rash","incautious"]
+},
+
+undeceive: {
+  domain: "un",
+  synonyms: ["disabuse","disenchant"]
+},
+
+ungag: {
+  domain: "un",
+  synonyms: ["decensor"]
+},
+
+unnerve: {
+  domain: "un",
+  synonyms: ["upset","demoralize","discourage"]
+},
+
+unshackle: {
+  domain: "un",
+  synonyms: ["set free","liberate"]
+},
+
+underbrush: {
+  domain: "under",
+  synonyms: ["undergrowth"]
+},
+
+underscore: {
+  domain: "under",
+  synonyms: ["underline","emphasize","stress"]
+},
+
+underdeveloped: {
+  domain: "under",
+  synonyms: ["backward"]
+},
+
+underprivileged: {
+  domain: "under",
+  synonyms: ["disadvantaged","deprived"]
+},
+
+understatement: {
+  domain: "under",
+  synonyms: ["euphemism"]
+},
+
+understudy: {
+  domain: "under",
+  synonyms: ["stand-in"]
+},
+  
+upcoming: {
+  domain: "up",
+  synonyms: ["forthcoming","approaching"]
+},
+
+update: {
+  domain: "up",
+  synonyms: ["modernize","renovate"]
+},
+
+upgrade: {
+  domain: "up",
+  synonyms: ["improve","reform"]
+},
+
+upheaval: {
+  domain: "up",
+  synonyms: ["commotion","disturbance","outcry"]
+},
+
+upkeep: {
+  domain: "up",
+  synonyms: ["maintenance","service"]
+},
+
+uplift: {
+  domain: "up",
+  synonyms: ["elevate","raise","boost"]
+},
+
+upright: {
+  domain: "up",
+  synonyms: ["erect","honest"]
+},
+
+uproot: {
+  domain: "up",
+  synonyms: ["remove","eradicate","annihilate"]
+},
+
+upturn: {
+  domain: "up",
+  synonyms: ["increase","rise"]
+},
+  
+withdraw: {
+  domain: "with",
+  synonyms: ["take back","retreat"]
+},
+
+withdrawn: {
+  domain: "with",
+  synonyms: ["introverted","detached"]
+},
+
+withhold: {
+  domain: "with",
+  synonyms: ["hold back","curb"]
+},
+
+withstand: {
+  domain: "with",
+  synonyms: ["endure","hold out"]
+},
+
+notwithstanding: {
+  domain: "with",
+  synonyms: ["despite","in spite of"]
 }
-/*
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-{
-sentence:"",
-target:""
-,clue:""
-},
-*/
 
-]
+
+}
