@@ -37,7 +37,7 @@
 → Clue:  oppose, Target: dispute
 - Isn't it a pity that this beautiful edifice is going to be razed?<br>
 → Clue: pity + beautiful edifice (... demolished ) , Target: raze
-  - The boys were going to trade blows, but I managed to hold one of them back and my friend restrained the other.<br>
+- The boys were going to trade blows, but I managed to hold one of them back and my friend restrained the other.<br>
 → Clue: hold back, Target: restrain ( \* = refrain from )
 - When all at once I saw a crowd; A host of golden daffodils.<br>
 → Clue: a crowd, Target: a host of
