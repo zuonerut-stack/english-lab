@@ -1,5 +1,4 @@
-window.greeksData = [
-  {
+window.greeksData ={
 authentic: {
   domain: "AUT",
   synonyms: ["true","trustworthy","genuine","reliable"]
@@ -591,6 +590,4 @@ typography: {
   domain: "GRAM",
   synonyms: []
 }
-   
-  } 
-]
+} 
