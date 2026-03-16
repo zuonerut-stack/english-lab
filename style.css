@@ -12,6 +12,14 @@ margin-top:40px;
 
 }
 
+.markdown{
+white-space: pre-wrap;
+font-family: monospace;
+background:#f6f6f6;
+padding:20px;
+border-radius:6px;
+}
+
 .menu{
 
 margin:20px;
