@@ -1,336 +1,336 @@
-
-be concerned with
-be engaged in
-be engrossed in
-be good at
-be hard on
-be proud of
-be reponsible for
-be subject to
-be tired of
-be vulnerable to
-
-get across
-get along
-get along with
-get away with
-get cold feet
-get down to
-get even with
-get in the way
-get in touch with
-get off
-get off the ground
-get on one's nerves
-get out of hand
-get somewhere
-get the ax
-get the better of
-get the edge on
-get the hang of
-get the picture
-get through
-
-have at one's finger's ends
-have a big mouth
-have a hard time
-have a voice in
-have an ax to grind
-have in mind
-have it in for
-have it out
-have no idea
-have one's hands full
-have something to do with
-have the upper hand
-
-make a difference
-make a fuss
-make allowances for
-make ends meet
-make for
-make good
-make use of
-make it
-make oneself at home
-make one's way
-make oneself understood
-make out
-make room for
-make sense
-make the best of
-make up
-make up for
-
-come across
-come around to
-come by
-come into
-come off
-come up against
-come up with
-come upon
-
-go by
-go down
-go down with
-do Dutch
-go for
-go in for
-go into
-go off
-go out with
-go over
-go up
-go without
-
-take ~ for ~
-take to task
-take advantage of
-take care of
-take down
-take exception to
-take in
-take into account
-take for granted
-take off
-take on
-take over
-take place
-take the place of
-take to
-take up
-take sides
-
-put across
-put away
-put down
-put off
-put on
-put one's nose into
-put out
-put someone through
-put up with
-
-keep company
-keep abreast of
-keep close tabs on
-keep good time
-keep in mind
-keep someone posted
-keep up
-keep up with
-
-turn aside
-turn down
-turn in
-turn off
-turn on
-turn out
-turn over
-turn to
-turn up
-
-do away with
-do good
-do justice to
-do in
-do up
-do with
-do without
-
-look after
-look down on
-look for
-look forward to
-look into
-look like
-look on as
-look out
-look over
-look to
-look up
-look up to
-
-cut a fine figure
-cut back on
-cut down
-cut off
-cut out for
-
-run across
-run away
-run down
-run for
-run into
-run out of
-run over
-run short
-
-break down
-break in
-break off
-break out
-break ground
-break the ice
-break up
-
-lose heart
-lose one's mind
-lose one's temper
-lose sight of
-lose track of
-
-hold back
-hold down
-hold good
-hold one's tongue
-hod out
-hold over
-hold up
-
-see eye to eye
-see off
-see to it that
-
-stand by
-stand for
-stand out
-
-in a bind
-in a butshell
-in a row
-in accordance with
-in addition to
-in advance
-in behalf of
-in case
-in charge of
-in comparison with
-inconjuction with
-in dtail
-in earnest
-in favor of
-in full accord
-in good taste
-in honor of
-in line with
-in no time
-in person
-in proportion to
-in return of
-in spite of oneself
-in store
-in succession
-in terms of
-in that
-in the air
-in the balance
-in the face of
-in the nick of time
-in the same boat
-in the wake of
-in token of
-
-on par with
-on account of
-on and off
-on and on
-on behalf of
-on edge
-on good terms with
-on hand
-on leave
-on pins and needles
-on purpose
-on the air
-on the alert
-on the brink of
-on the contrary
-on the go
-on the horns of dilemma
-on the house
-on the point of
-on the spot
-on the tip of one's tongue
-on the whole
-
-at a loss
-at any rate
-at length
-at odds
-at one's disposal
-at random
-at stake
-at the expense of
-at the mercy of
-at the risk of
-at the same time
-
-out and out
-out of date
-out of humor
-out of one's mind
-out of one's wits
-out of order
-out of place
-out of question
-out of season
-out of sorts
-out of stock
-out of the blue
-out of the question
-out of work
-
-for a song
-for all
-for all I know
-for good
-
-for nothing
-for one thing
-for one's life
-for the sake of
-for the time being
-
-by and by
-by and large
-by halves
-by leaps and bounds
-by means of
-by no means
-by the book
-by the skin of one's teeth
-
-off the cuff
-off hand
-off the record
-off the wall
-
-with a view to
-with all
-with open arms
-with regard to
-
-to one's hear's content
-to the effect that
-to the letter
-to the point
-
-under the table
-under the weather
-under way
-
-without fail
-without a letup
-without regard to
-
-of itself
-of moment
-
-from scratch 
-
-into the bargain
+--------
+be concerned with<br>
+be engaged in<br>
+be engrossed in<br>
+be good at<br>
+be hard on<br>
+be proud of<br>
+be reponsible for<br>
+be subject to<br>
+be tired of<br>
+be vulnerable to<br>
+-------------
+get across<br>
+get along<br>
+get along with<br>
+get away with<br>
+get cold feet<br>
+get down to<br>
+get even with<br>
+get in the way<br>
+get in touch with<br>
+get off<br>
+get off the ground<br>
+get on one's nerves<br>
+get out of hand<br>
+get somewhere<br>
+get the ax<br>
+get the better of<br>
+get the edge on<br>
+get the hang of<br>
+get the picture<br>
+get through<br>
+------------------
+have at one's finger's ends<br>
+have a big mouth<br>
+have a hard time<br>
+have a voice in<br>
+have an ax to grind<br>
+have in mind<br>
+have it in for<br>
+have it out<br>
+have no idea<br>
+have one's hands full<br>
+have something to do with<br>
+have the upper hand<br>
+------------------
+make a difference<br>
+make a fuss<br>
+make allowances for<br>
+make ends meet<br>
+make for<br>
+make good<br>
+make use of<br>
+make it<br>
+make oneself at home<br>
+make one's way<br>
+make oneself understood<br>
+make out<br>
+make room for<br>
+make sense<br>
+make the best of<br>
+make up<br>
+make up for<br>
+------------
+come across<br>
+come around to<br>
+come by<br>
+come into<br>
+come off<br>
+come up against<br>
+come up with<br>
+come upon<br>
+---------
+go by<br>
+go down<br>
+go down with<br>
+do Dutch<br>
+go for<br>
+go in for<br>
+go into<br>
+go off<br>
+go out with<br>
+go over<br>
+go up<br>
+go without<br>
+----------------
+take ~ for ~<br>
+take to task<br>
+take advantage of<br>
+take care of<br>
+take down<br>
+take exception to<br>
+take in<br>
+take into account<br>
+take for granted<br>
+take off<br>
+take on<br>
+take over<br>
+take place<br>
+take the place of<br>
+take to<br>
+take up<br>
+take sides<br>
+--------------
+put across<br>
+put away<br>
+put down<br>
+put off<br>
+put on<br>
+put one's nose into<br>
+put out<br>
+put someone through<br>
+put up with<br>
+------------------
+keep company<br>
+keep abreast of<br>
+keep close tabs on<br>
+keep good time<br>
+keep in mind<br>
+keep someone posted<br>
+keep up<br>
+keep up with<br>
+---------------
+turn aside<br>
+turn down<br>
+turn in<br>
+turn off<br>
+turn on<br>
+turn out<br>
+turn over<br>
+turn to<br>
+turn up<br>
+----------------
+do away with<br>
+do good<br>
+do justice to<br>
+do in<br>
+do up<br>
+do with<br>
+do without<br>
+-------------
+look after<br>
+look down on<br>
+look for<br>
+look forward to<br>
+look into<br>
+look like<br>
+look on as<br>
+look out<br>
+look over<br>
+look to<br>
+look up<br>
+look up to<br>
+------------
+cut a fine figure<br>
+cut back on<br>
+cut down<br>
+cut off<br>
+cut out for<br>
+----------------
+run across<br>
+run away<br>
+run down<br>
+run for<br>
+run into<br>
+run out of<br>
+run over<br>
+run short<br>
+--------------
+break down<br>
+break in<br>
+break off<br>
+break out<br>
+break ground<br>
+break the ice<br>
+break up<br>
+---------------
+lose heart<br>
+lose one's mind<br>
+lose one's temper<br>
+lose sight of<br>
+lose track of<br>
+-----------
+hold back<br>
+hold down<br>
+hold good<br>
+hold one's tongue<br>
+hod out<br>
+hold over<br>
+hold up<br>
+------------
+see eye to eye<br>
+see off<br>
+see to it that<br>
+----------------
+stand by<br>
+stand for<br>
+stand out<br>
+---------------
+in a bind<br>
+in a butshell<br>
+in a row<br>
+in accordance with<br>
+in addition to<br>
+in advance<br>
+in behalf of<br>
+in case<br>
+in charge of<br>
+in comparison with<br>
+inconjuction with<br>
+in detail<br>
+in earnestv
+in favor of<br>
+in full accord<br>
+in good taste<br>
+in honor of<br>
+in line with<br>
+in no time<br>
+in person<br>
+in proportion to<br>
+in return of<br>
+in spite of oneself<br>
+in store<br>
+in succession<br>
+in terms of<br>
+in that<br>
+in the air<br>
+in the balance<br>
+in the face of<br>
+in the nick of time<br>
+in the same boat<br>
+in the wake of<br>
+in token of<br>
+-------------
+on par with<br>
+on account of<br>
+on and off<br>
+on and on<br>
+on behalf of<br>
+on edge<br>
+on good terms with<br>
+on hand<br>
+on leave<br>
+on pins and needles<br>
+on purpose<br>
+on the air<br>
+on the alert<br>
+on the brink of<br>
+on the contrary<br>
+on the go<br>
+on the horns of dilemma<br>
+on the house<br>
+on the point of<br>
+on the spot<br>
+on the tip of one's tongue<br>
+on the whole<br>
+--------------
+at a loss<br>
+at any rate<br>
+at length<br>
+at odds<br>
+at one's disposal<br>
+at random<br>
+at stake<br>
+at the expense of<br>
+at the mercy of<br>
+at the risk of<br>
+at the same time<br>
+------------------
+out and out<br>
+out of date<br>
+out of humor<br>
+out of one's mind<br>
+out of one's wits<br>
+out of order<br>
+out of place<br>
+out of question<br>
+out of season<br>
+out of sorts<br>
+out of stock<br>
+out of the blue<br>
+out of the question<br>
+out of work<br>
+------------------
+for a song<br>
+for all<br>
+for all I know<br>
+for good<br>
+----------------
+for nothing<br>
+for one thing<br>
+for one's life<br>
+for the sake of<br>
+for the time being<br>
+----------------
+by and by<br>
+by and large<br>
+by halves<br>
+by leaps and bounds<br>
+by means of<br>
+by no means<br>
+by the book<br>
+by the skin of one's teeth<br>
+------------------
+off the cuff<br>
+off hand<br>
+off the record<br>
+off the wall<br>
+------------------
+with a view to<br>
+with all<br>
+with open arms<br>
+with regard to<br>
+--------------
+to one's hear's content<br>
+to the effect that<br>
+to the letter<br>
+to the point<br>
+----------------
+under the table<br>
+under the weather<br>
+under way<br>
+----------------
+without fail<br>
+without a letup<br>
+without regard to<br>
+-----------------
+of itself<br>
+of moment<br>
+----------------
+from scratch <br>
+----------------
+into the bargain<br>
 
 ---------------
 
