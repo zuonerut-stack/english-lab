@@ -177,7 +177,7 @@ IN, IL, IM, IR : not, un 아닌
 - inactive = idle, indolent ( physical ) / inoperative, nonfuctioning ( use )
 - insecure = unprotected / unconfident
 - incapable = unable to / incapatitated ( 행동불능인 )
-- inaccurate = incorrect, inexact, imprecise
+- inaccurate = incorrect, inexact, imprecise <br>
 
 ( IR )
 - irreconcilable = incompatible 
