@@ -62,8 +62,8 @@ impoverish: {
 indigence: {
   domain: "Poverty",
   synonyms: ["poverty","penury"]
-}
-
+},
+  
 affluent: {
   domain: "Wealth",
   synonyms: ["rich","wealthy","opulent"]
