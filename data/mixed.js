@@ -1,4 +1,4 @@
-window.contrastData=[
+window.mixedData=[
 {
 sentence:"Shall you hear how Hiawatha prayed and fasted in the forest. Not for greater skill in hunting, not for greater craft in fishing.",
 target:"craft",
@@ -46,7 +46,7 @@ clue:"run two miles = impossible"
 },
 {
 sentence:"Donald was defeated in last election but that won't deter him from running again.",
-target:"deter from",
+target:"deter",
 clue:"won't ~ running again"
 },
 {
