@@ -117,7 +117,7 @@ window.LPData={
   },
   "postmortem": {
     domain: "post",
-    synonyms": ["autopsy"]
+    synonyms: ["autopsy"]
   },
   "postscript": {
     domain: "post",
