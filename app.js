@@ -25,12 +25,66 @@ function setSubject(subject){
 
 currentSubject = subject
 
-if(subject=="contrast") dataset = contrastData
-if(subject=="similarity") dataset = similarityData
-if(subject=="phrasal") dataset = phrasalData
-if(subject=="roots") dataset = rootsData
+if(subject=="contrast"){
+dataset = contrastData
+loadMarkdown("learning/Contrast.md")
+return
+}
+
+if(subject=="similarity"){
+dataset = similarityData
+}
+
+if(subject=="phrasal"){
+dataset = phrasalData
+}
+
+if(subject=="roots"){
+dataset = rootsData
+}
 
 showLearning()
+
+}
+
+
+/* --------------------------
+   MARKDOWN LOADER
+-------------------------- */
+
+async function loadMarkdown(path){
+
+let div = document.getElementById("learningContent")
+
+div.innerHTML = "Loading..."
+
+try{
+
+let response = await fetch(path)
+
+let text = await response.text()
+
+div.innerHTML =
+"<h3>"+currentSubject+"</h3>" +
+"<pre class='markdown'>"+escapeHtml(text)+"</pre>" +
+"<button onclick='switchTab(\"drill\")'>Start Drill</button>"
+
+}catch(e){
+
+div.innerHTML = "Failed to load markdown."
+
+}
+
+}
+
+
+/* HTML escape */
+function escapeHtml(text){
+
+return text
+.replace(/&/g,"&amp;")
+.replace(/</g,"&lt;")
+.replace(/>/g,"&gt;")
 
 }
 
