@@ -204,7 +204,7 @@ dataset=[
 
 ]
 
-loadMarkdown("./learning/WordPlay.md")
+loadMarkdown("./learning/mixed.md")
 
 return
 }
