@@ -438,6 +438,4 @@ window.LRData = {
     root: "vis",
     synonyms: ["optical","ocular"]
   }
-
-}
 }
