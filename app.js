@@ -1,56 +1,102 @@
+let currentTab = "learning"
+let currentSubject = null
+let dataset = []
+let current = null
 
-let mode="contrast"
-let dataset=[]
-let current=null
 
-function setMode(m){
+function switchTab(tab){
 
-mode=m
+currentTab = tab
 
-if(m=="contrast") dataset=contrastData
-if(m=="similarity") dataset=similarityData
-if(m=="phrasal") dataset=phrasalData
-if(m=="roots") dataset=rootsData
+document.getElementById("learningPage").style.display =
+tab==="learning" ? "block" : "none"
 
+document.getElementById("drillPage").style.display =
+tab==="drill" ? "block" : "none"
+
+if(tab==="drill" && dataset.length>0){
 next()
+}
 
 }
 
+
+function setSubject(subject){
+
+currentSubject = subject
+
+if(subject=="contrast") dataset = contrastData
+if(subject=="similarity") dataset = similarityData
+if(subject=="phrasal") dataset = phrasalData
+if(subject=="roots") dataset = rootsData
+
+showLearning()
+
+}
+
+
+function showLearning(){
+
+let div = document.getElementById("learningContent")
+
+if(!currentSubject){
+
+div.innerHTML = "Select a subject."
+
+return
+
+}
+
+let html = "<h3>"+currentSubject+"</h3>"
+html += "<p>Items: "+dataset.length+"</p>"
+html += "<button onclick='switchTab(\"drill\")'>Start Drill</button>"
+
+div.innerHTML = html
+
+}
+
+
+
 function next(){
 
-current=dataset[Math.floor(Math.random()*dataset.length)]
+if(dataset.length==0) return
 
-document.getElementById("answer").value=""
-document.getElementById("result").innerHTML=""
+current = dataset[Math.floor(Math.random()*dataset.length)]
 
-if(mode=="contrast" || mode=="similarity"){
+document.getElementById("answer").value = ""
+document.getElementById("result").innerHTML = ""
 
-document.getElementById("question").innerHTML=
+if(currentSubject=="contrast" || currentSubject=="similarity"){
+
+document.getElementById("question").innerHTML =
 current.sentence.replace(current.target,"_____")
 
 }
 
-if(mode=="phrasal"){
+if(currentSubject=="phrasal"){
 
-document.getElementById("question").innerHTML=
+document.getElementById("question").innerHTML =
 "What does this mean?<br><b>"+current.verb+"</b>"
 
 }
 
-if(mode=="roots"){
+if(currentSubject=="roots"){
 
-document.getElementById("question").innerHTML=
+document.getElementById("question").innerHTML =
 "Root: <b>"+current.root+"</b>"
 
 }
 
 }
 
+
+
 function check(){
 
-let user=document.getElementById("answer").value.trim().toLowerCase()
+let user = document.getElementById("answer").value.trim().toLowerCase()
+let result = document.getElementById("result")
 
-if(mode=="contrast" || mode=="similarity"){
+if(currentSubject=="contrast" || currentSubject=="similarity"){
 
 if(user==current.target){
 
@@ -64,7 +110,7 @@ result.innerHTML="Answer: "+current.target
 
 }
 
-if(mode=="phrasal"){
+if(currentSubject=="phrasal"){
 
 if(user==current.meaning){
 
@@ -78,7 +124,7 @@ result.innerHTML="Answer: "+current.meaning
 
 }
 
-if(mode=="roots"){
+if(currentSubject=="roots"){
 
 result.innerHTML="Examples:<br>"+current.examples.join(", ")
 
@@ -86,4 +132,28 @@ result.innerHTML="Examples:<br>"+current.examples.join(", ")
 
 }
 
-setMode("contrast")
+
+
+function hint(){
+
+let result = document.getElementById("result")
+
+if(currentSubject=="contrast" || currentSubject=="similarity"){
+
+result.innerHTML="Hint: "+current.target
+
+}
+
+if(currentSubject=="phrasal"){
+
+result.innerHTML="Hint: "+current.meaning
+
+}
+
+if(currentSubject=="roots"){
+
+result.innerHTML="Examples:<br>"+current.examples.join(", ")
+
+}
+
+}
