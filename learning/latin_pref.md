@@ -2,9 +2,9 @@
 
 ---
 ------------
-AB, A, ABS: from ~부터 away, off 떨어져
+AB, A, ABS: from ~부터 away, off 떨어져<br>
 
-(off)
+(off)<br>
 - adbdicate = renounce, give up, resign ( formally remove oneself from )
 - abduct = kidnap, snatch
 - abhor = shirnk from, detest, loathe, hate ( regard with disgust and hatred )
@@ -33,7 +33,7 @@ AD: to ~로 near 가까이에
 - addicted = habituated, devoted, dependent on
 - adherent = follower, supporter / adhesive, sticking
 - adjourn = suspend, break off, defer, recess, retreat, withdraw ( to stop or break ongoing session)
-- advent (noun) = arrival, approach, emergence
+- advent (noun) = arrival, approach, emergence<br>
   \* vent < venire = come
 - adversary (noun) = foe, antagonist, opponent, enemy
 - adverse (adj) = hostile, unfavorable, harmful ( invoking disadvantage or preventing sucess ) 
