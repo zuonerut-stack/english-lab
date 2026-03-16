@@ -160,6 +160,7 @@ return
 }
 
 if(subject=="CI"){
+dataset=normalizeDataset(window.CIData||{})
 loadMarkdown("./learning/CenIdea.md")
 return
 }
@@ -167,13 +168,13 @@ return
 /* ETYMOLOGY */
 
 if(subject=="angloPrefix"){
-dataset=normalizeDataset(window.angloPrefixData||{})
+dataset=normalizeDataset(window.ASData||{})
 loadMarkdown("./learning/AS.md")
 return
 }
 
 if(subject=="latinPrefix"){
-dataset=normalizeDataset(window.latinPrefixData||{})
+dataset=normalizeDataset(window.LPData||{})
 loadMarkdown("./learning/latin_pref.md")
 return
 }
@@ -185,8 +186,25 @@ return
 }
 
 if(subject=="greekElement"){
-dataset=normalizeDataset(window.greeksData||{})
+dataset=normalizeDataset(window.GData||{})
 loadMarkdown("./learning/Greeks.md")
+return
+}
+
+if(subject=="mixed2"){
+
+dataset=[
+
+...normalizeDataset(window.ASData||{}),
+...normalizeDataset(window.LPData||{}),
+...normalizeDataset(window.LRData||{}),
+...normalizeDataset(window.GData||{}),
+...normalizeDataset(window.CIData||{})
+
+]
+
+loadMarkdown("./learning/WordPlay.md")
+
 return
 }
 
