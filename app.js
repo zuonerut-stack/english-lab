@@ -240,6 +240,55 @@ html+="<button onclick='switchTab(\"drill\")'>Start Drill</button>"
 div.innerHTML=html
 
 }
+/* --------------------------
+STATE
+-------------------------- */
+
+let questionQueue = []
+let mcqBaseQueue = []
+
+/* --------------------------
+FISHER YATES SHUFFLE
+-------------------------- */
+
+function shuffle(arr){
+
+let a=[...arr]
+
+for(let i=a.length-1;i>0;i--){
+
+let j=Math.floor(Math.random()*(i+1))
+
+let tmp=a[i]
+a[i]=a[j]
+a[j]=tmp
+
+}
+
+return a
+}
+
+/* --------------------------
+QUEUE MANAGEMENT
+-------------------------- */
+
+function refillQueue(){
+
+questionQueue = shuffle(dataset)
+
+}
+
+function nextItem(){
+
+if(questionQueue.length===0){
+refillQueue()
+}
+
+return questionQueue.pop()
+
+}
+
+
 
 /* --------------------------
 NEXT QUESTION
@@ -247,7 +296,7 @@ NEXT QUESTION
 
 function next(){
 
-if(dataset.length==0) return
+if(dataset.length===0) return
 
 document.getElementById("result").innerHTML=""
 
@@ -261,7 +310,7 @@ if(currentSubject=="phrase"){
 mcqDiv.style.display="none"
 inputBox.style.display="block"
 
-current=rand(dataset)
+current=nextItem()
 
 inputBox.value=""
 
@@ -282,7 +331,7 @@ if(isContextSubject()){
 mcqDiv.style.display="none"
 inputBox.style.display="block"
 
-current=rand(dataset)
+current=nextItem()
 
 inputBox.value=""
 
@@ -292,7 +341,7 @@ current.sentence.replace(current.target,"_____")
 return
 }
 
-/* ETYMOLOGY DRILL */
+/* ETYMOLOGY */
 
 if(isEtymologySubject()){
 
