@@ -110,7 +110,7 @@ clue: "hold back"
 
 {
 sentence: "When all at once I saw a crowd; a host of golden daffodils.",
-target: "a host of",
+target: "host",
 clue: "a crowd"
 },
 
@@ -145,7 +145,7 @@ clue: "frighten"
 },
 
 {
-sentence: "He soon found many of his former friends, though all rather the worse for the wear and tear of time; so Rip preferred making friends among the younger.",
+sentence: "He soon found many of his former friends, though all rather the worse for the wear and tear of time; so Rip preferred making cronies among the younger.",
 target: "cronies",
 clue: "friends"
 },
