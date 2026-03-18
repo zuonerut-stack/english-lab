@@ -71,7 +71,7 @@ clue:"for a long time"
 },
 {
 sentence:"I shall be disappointed if I cannot achieve this objective.",
-target:"achievee",
+target:"achieve",
 clue:"disappointed = result"
 },
 {
