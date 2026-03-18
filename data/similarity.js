@@ -92,7 +92,7 @@ clue: "charge"
 
 {
 sentence: "His facts no one thought of disputing; and his opinions few of the sailors dared to oppose.",
-target: "dispute",
+target: "disputing",
 clue: "oppose"
 },
 
